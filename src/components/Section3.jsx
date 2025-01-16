@@ -8,7 +8,7 @@ import { LuArrowRightLeft } from "react-icons/lu";
 
 export default function Section3() {
     return (
-        <div className='flex gap-32 mb-32 px-28 justify-evenly'>
+        <div className='gap-32 mb-32 md:flex px-28 md:justify-evenly'>
             
             {/* left */}
             <div className='flex justify-center'>
@@ -40,7 +40,7 @@ export default function Section3() {
                             </div>
                             <div className='mt-3'>
                                 <LuArrowRightLeft className='text-4xl text-zinc-700' />
-                                <p className='mt-2 font-semibold text-zinc-800'>Hassle Free Returns</p>
+                                <p className='mt-2 font-semibold text-zinc-800'>Hassle Free</p>
                                 <p className='mt-2 text-gray-500'>Donec vitae odio quis nisl dapibus <br /> malesuada. Nullam ac aliquet velit.<br /> Aliquam vulputate.</p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ export default function Section3() {
             </div>
 
             {/* right */}
-            <div>
+            <div className='mt-10 md:mt-0'>
                 <img src={chair9} className='rounded-3xl' alt="" />
             </div>
         </div>

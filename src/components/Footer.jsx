@@ -8,14 +8,14 @@ export default function Footer() {
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0 mt-28">
-                        <div class="flex flex-col ">
+                        <div class="flex flex-col md:px-0  px-10 ">
 
-                            <span class=" text-5xl font-semibold whitespace-nowrap  text-green-900">Furni.</span>
+                            <span class=" md:text-5xl text-3xl font-semibold whitespace-nowrap  text-green-900">Furni.</span>
                             <span class=" text-sm mt-7 leading-7 text-gray-500">Donec facilisis quam ut purus rutrum lobortis.<br /> Donec vitae odio quis nisl dapibus malesuada.<br /> Nullam ac aliquet velit. Aliquam vulputate velit<br /> imperdiet dolor tempor tristique. Pellentesque<br /> habitant</span>
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 ml-10  mt-32">
+                    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:ml-32 ml-10  mt-32">
                         <div>
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -57,7 +57,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className='relative bottom-36'>
-                        <img src={sofa13} alt="" />
+                        <img src={sofa13} className='md:w-full w-[200px] md:ml-0 ml-[200px]' alt="" />
                     </div>
                 </div>
                 <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />

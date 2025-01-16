@@ -6,7 +6,7 @@ import { FaRegCircle } from "react-icons/fa";
 
 export default function Section4() {
     return (
-        <div className='flex justify-between gap-32 px-20 mb-32 leading-6 pt-28'>
+        <div className='justify-between gap-32 px-20 mb-32 leading-6 md:flex md:pt-28'>
 
             {/* left */}
             <div className="relative w-3/5">
@@ -30,7 +30,7 @@ export default function Section4() {
                 <img
                     src={chair10}
                     width="300px"
-                    className="absolute z-10 top-[227px] left-[320px] rounded-3xl"
+                    className="absolute z-10 md:top-[227px] hidden md:block top-[410%] md:left-[320px] rounded-3xl"
                     alt=""
                 />
             </div>
@@ -38,9 +38,9 @@ export default function Section4() {
 
 
             {/* right */}
-            <div className='w-2/5'>
+            <div className='md:w-2/5'>
                 <div className='flex flex-col'>
-                    <h1 className='text-3xl font-semibold text-zinc-800'>We Help You Make Modern Interior Design</h1>
+                    <h1 className='mt-10 text-lg font-semibold md:text-3xl md:mt-0 text-zinc-800'>We Help You Make Modern Interior Design</h1>
                     <p className='mt-10 text-gray-500 '>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
 
                     {/* the 4 icons */}
